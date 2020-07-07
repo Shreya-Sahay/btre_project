@@ -115,4 +115,6 @@ dmypy.json
 .pyre/
 
 .pytype/
+/media
 venv
+/static
