@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b@m#!5k^5!f0pykvx_g+ah#j(&_wqv8%x!5$aq4tk!x+-#q)z2'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'hotelbookingdb',
         'USER': 'postgresq',
-        'PASSWORD':'user12',
+        'PASSWORD':'',
         'HOST':'localhost'
     }
 }
@@ -148,6 +148,6 @@ MESSAGE_TAGS = {
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER='shreeeee96@gmail.com'
+EMAIL_HOST_USER=''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS=True
